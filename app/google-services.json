@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "478521697345",
+    "firebase_url": "https://nontondotkom-15f6b.firebaseio.com",
+    "project_id": "nontondotkom-15f6b",
+    "storage_bucket": "nontondotkom-15f6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478521697345:android:47bfcfc4761b70cb4612c0",
+        "android_client_info": {
+          "package_name": "com.izzu.nontondotkom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478521697345-quu9d9t7o6mkq5jhg2gi8j6mft9vb5d1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdzSXS9uEqiU0gDdxjxBY2GMn34JEQKwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478521697345-quu9d9t7o6mkq5jhg2gi8j6mft9vb5d1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

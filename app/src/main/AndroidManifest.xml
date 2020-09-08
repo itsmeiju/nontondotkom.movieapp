@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.izzu.nontondotkom">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission-sdk-23 android:name="android.permission.CAMERA" />
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="nontondotkom"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.noActionBar">
+        <activity android:name="com.izzu.nontondotkom.DetailActivity"></activity>
+        <activity android:name="com.izzu.nontondotkom.SoonDetailActivity"></activity>
+        <activity android:name="com.izzu.nontondotkom.checkout.PilihBangkuActivity"></activity>
+        <activity android:name="com.izzu.nontondotkom.checkout.CheckoutActivity"></activity>
+        <activity android:name="com.izzu.nontondotkom.checkout.CheckoutSuccessActivity"></activity>
+        <activity android:name=".wallet.MyWalletActivity" />
+        <activity android:name=".wallet.MyWalletSuccessActivity" />
+        <activity android:name=".wallet.MyWalletTopUpActivity"></activity>
+        <activity android:name=".home.TiketActivity"/>
+        <activity android:name="com.izzu.nontondotkom.home.HomeActivity"/>
+        <activity android:name="com.izzu.nontondotkom.onboarding.OneboardingOneActivity" />
+        <activity android:name="com.izzu.nontondotkom.onboarding.OneboardingTwoActivity" />
+        <activity android:name="com.izzu.nontondotkom.onboarding.OneboardingThreeActivity" />
+        <activity android:name="com.izzu.nontondotkom.sign.signin.SignInActivity" />
+        <activity android:name="com.izzu.nontondotkom.sign.signup.SignUpActivity" />
+        <activity android:name="com.izzu.nontondotkom.sign.signup.SignUpPhotoscreenActivity" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
